@@ -9,5 +9,5 @@ const options = {
 }
 const tickets = new TicketsController(options)
 
-ticketsRoute.get('/tickets', tickets.get)
-ticketsRoute.post('/tickets', tickets.post)
+ticketsRoute.get('/tickets', tickets.get);
+ticketsRoute.post('/tickets', tickets.post);
