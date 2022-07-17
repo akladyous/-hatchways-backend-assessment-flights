@@ -10,6 +10,7 @@ import routes from "./routes/routes.js";
 
 const app = express();
 const PORT = 4000;
+
 app.use(morgran('tiny'))
 app.use(handleCors());
 app.use(express.json());
